@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "package": "com.armorposer.addon.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "ArmorPoserSendHookMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

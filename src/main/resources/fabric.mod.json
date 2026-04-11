@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "armorposer_addon",
+  "version": "${version}",
+  "name": "Armor Poser Addon",
+  "description": "Клиентский аддон для автоматизации взаимодействия со стойками Armor Poser.",
+  "authors": ["Codex"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.armorposer.addon.ArmorPoserAddonClient"
+    ]
+  },
+  "mixins": [
+    "armorposer-addon.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.10",
+    "minecraft": "~1.21.4",
+    "fabric-api": "*"
+  }
+}
