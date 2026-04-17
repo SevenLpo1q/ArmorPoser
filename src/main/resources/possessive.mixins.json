@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "com.armorposer.possessive.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [],
+  "client": [
+    "EntityNoClipAccessor"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

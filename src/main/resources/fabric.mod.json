@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "possessive",
+  "version": "1.0.0",
+  "name": "Possessive",
+  "description": "Toggle no-clip flight with a hotkey.",
+  "authors": ["ArmorPoser"],
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.armorposer.possessive.PossessiveMod"
+    ],
+    "client": [
+      "com.armorposer.possessive.PossessiveClient"
+    ]
+  },
+  "mixins": [
+    "possessive.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
