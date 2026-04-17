@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "possessive",
-  "version": "1.0.0",
+  "version": "${version}",
   "name": "Possessive",
   "description": "Toggle no-clip flight with a hotkey.",
   "authors": ["ArmorPoser"],
