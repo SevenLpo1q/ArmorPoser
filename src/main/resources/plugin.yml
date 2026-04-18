@@ -1,0 +1,19 @@
+name: ArmorStates
+version: 1.0.1
+main: com.armorposer.states.ArmorStatesPlugin
+api-version: '1.21'
+authors: [ArmorPoser]
+commands:
+  state:
+    description: Команды государства
+    usage: /state
+  sc:
+    description: Чат государства
+    usage: /sc <сообщение>
+  stateadmin:
+    description: Админ-команды государства
+    usage: /stateadmin
+permissions:
+  states.admin:
+    description: Управление государствами
+    default: op
