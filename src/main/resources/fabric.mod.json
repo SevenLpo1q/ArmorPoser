@@ -7,11 +7,8 @@
   "authors": ["SWILL"],
   "contact": {},
   "license": "All-Rights-Reserved",
-  "environment": "*",
+  "environment": "client",
   "entrypoints": {
-    "main": [
-      "ru.swill.hitbox.HitboxMod"
-    ],
     "client": [
       "ru.swill.hitbox.client.HitboxClient"
     ]
