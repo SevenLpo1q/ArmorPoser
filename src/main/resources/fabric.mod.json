@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "hitboxmod",
+  "version": "${version}",
+  "name": "Hitbox Toggle Mod",
+  "description": "Change player hitbox by holding [ and ] keys, toggle with Delete.",
+  "authors": ["SWILL"],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "ru.swill.hitbox.client.HitboxClient"
+    ]
+  },
+  "mixins": [
+    "hitboxmod.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": ">=1.21",
+    "fabric-api": "*"
+  }
+}
