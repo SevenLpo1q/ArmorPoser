@@ -1,6 +1,2 @@
-# Local build output
-/build/
-/.gradle/
-
-# Keep custom image assets local (repo without binaries)
-src/main/resources/assets/**/*.png
+# Local PNG assets (not committed)
+resourcepack/assets/**/*.png
