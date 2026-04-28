@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "package": "moonulio.skinpresets.client.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "MultiplayerScreenMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

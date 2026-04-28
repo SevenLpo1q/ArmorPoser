@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "skin_presets",
+  "version": "${version}",
+  "name": "Skin Presets",
+  "description": "Change account skins from the multiplayer screen by nickname, URL, or local file.",
+  "authors": [
+    "moonulio"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "moonulio.skinpresets.SkinPresetsMod"
+    ],
+    "client": [
+      "moonulio.skinpresets.client.SkinPresetsClient"
+    ]
+  },
+  "mixins": [
+    "skin-presets.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.10",
+    "minecraft": "1.21.11",
+    "fabric-api": "*"
+  }
+}
